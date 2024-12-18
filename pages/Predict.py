@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from pages.predicthistory import show_history
+from pages.Predict_History import show_history
 
 # Load model from pickle file
 with open("model.pkl", "rb") as file:
